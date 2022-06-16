@@ -1,0 +1,113 @@
+/* Homepage */
+.badge{
+    position: absolute;
+    top: -10px;
+    right: 30px;
+}
+body{
+    background-color: #ffffff !important;
+}
+.navbar-custom, .bg-primary{
+    background-color: #6288d2 !important;
+}
+.navbar-custom .navbar-brand, .navbar-custom .navbar-brand:hover{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+}
+img.logo{
+    margin-top: -5px;
+}
+img.logo, img.icon{
+    margin-right: 15px;
+    height: 30px;
+}
+.border-right{
+    border-right: 1px solid #fff;
+}
+.border-left{
+    border-left: 1px solid #fff;
+}
+.form-control.input-lg{
+    border-radius: 6px;
+    padding: 10px;
+}
+.btn{
+    border-radius: 6px;
+    padding: 4px 17px;
+}
+.text-primary{
+    color: #6288d2 !important;
+}
+.relative{
+    position: relative;
+}
+.btn-relative{
+    position: absolute;
+    right: 18px;
+    top: 4px;
+    border-radius: 6px;
+    padding: 7px 10px;
+    background-color: #6288d2;
+    border: none;
+}
+.carousel{
+    background-color: #f1f6ff;
+    margin-top: 80px;
+    padding: 15px 0 0 0;
+    margin-bottom: 50px;
+}
+.carousel-indicators, .carousel-control-prev, .carousel-control-next{
+    display: none !important;
+}
+.carousel-item{
+    padding: 10px 100px;
+    margin-bottom: 10px;
+}
+.carousel-item img{
+    border-radius: 20px;
+}
+.category-item{
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid grey;
+}
+.category-item img{
+    height: 80px;
+    width: auto;
+}
+.panel-category{
+    border-radius: 20px;
+    padding: 30px;
+}
+.panel-category .card, .panel-category .card img{
+    border-radius: 20px;
+}
+.panel-category .card h4{
+    line-height: 30px;
+}
+.categpry-footer{
+    padding-top: 30px;
+}
+.medsos-footer{
+    display: flex;
+}
+.medsos{
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 8px;
+}
+.medsos img{
+    display: inline-block;
+    width: 20px;
+}
+
+/*Product*/
+.product-detail{
+    margin-top: 80px;
+}
+.product-img{
+    display: block;
+    width: 100%;
+    border: 1px solid grey;
+}
